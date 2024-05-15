@@ -1,5 +1,7 @@
-import Header from "../components/Header";
 import { WavyBackground } from "../components/WavyBackground";
+import Header from "../components/Header";
+import BrandQuote from "../components/BrandQuote";
+import Review from "../components/Review";
 
 export default function Landing() {
   return (
@@ -10,17 +12,18 @@ export default function Landing() {
             subtitle="Welcome to RMS Printer and Laptop Services"
             title="Your One-Stop Tech Repair Shop"
           />
-          <div className="relative flex items-center justify-center">
-            <div className="bg-red absolute top-16 flex size-[80vw] items-center justify-center rounded-full md:size-[60vw]">
-              <img
-                className="absolute -top-16 "
-                src="/ceo-img.png"
-                alt="CEO Image"
-              />
+          <div className="flex flex-col justify-between md:flex-row">
+            <BrandQuote />
+            <div className="relative flex items-center justify-center">
+              <div className="bg-red absolute top-60 flex size-[80vw] items-center justify-center rounded-full md:top-16 md:size-[60vw]">
+                <img
+                  className="absolute -top-16 "
+                  src="/ceo-img.png"
+                  alt="CEO Image"
+                />
+              </div>
             </div>
-          </div>
-          <div>
-            <span className="text-7xl md:text-9xl">&ldquo;</span>
+            <Review />
           </div>
         </div>
       </WavyBackground>
