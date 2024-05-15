@@ -1,7 +1,9 @@
 import { WavyBackground } from "../components/WavyBackground";
+import { Button } from "@/components/ui/button";
 import Header from "../components/Header";
 import BrandQuote from "../components/BrandQuote";
 import Review from "../components/Review";
+import { Phone } from "lucide-react";
 
 export default function Landing() {
   return (
@@ -21,6 +23,13 @@ export default function Landing() {
                   src="/ceo-img.png"
                   alt="CEO Image"
                 />
+                <div className="absolute top-56 md:top-64 z-50 bg-white px-3 py-2 rounded-full flex gap-4">
+                  <Button variant="default">
+                    <Phone size={16} />
+                    <a href="#footer">Contact Us</a>
+                  </Button>
+                  <Button variant="outline">Be One of Us</Button>
+                </div>
               </div>
             </div>
             <Review />
