@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Nunito", "sans-serif"],
+        sansSecondary: ["Prompt", "sans-serif"],
       },
       colors: {
         red: "#f12924",

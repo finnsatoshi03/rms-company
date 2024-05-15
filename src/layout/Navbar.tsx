@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="relative z-50 flex items-center justify-between">
       <div>
         <a href="#landing">
           <img className="w-20" src="/assets/RMS-Logo.png" alt="Brand Logo" />
