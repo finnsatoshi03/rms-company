@@ -6,7 +6,7 @@ export default function Navbar() {
           <img className="w-20" src="/assets/RMS-Logo.png" alt="Brand Logo" />
         </a>
       </div>
-      <ul className="flex items-center gap-8">
+      <ul className="hidden items-center gap-8 md:flex">
         <li>
           <a href="#about">About</a>
         </li>
