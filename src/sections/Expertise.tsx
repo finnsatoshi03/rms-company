@@ -4,7 +4,7 @@ import SectionTitle from "@/components/SectionTitle";
 const brands = [
   { imgBrand: "/assets/logo/canon.png" },
   { imgBrand: "/assets/logo/epson.png" },
-  // { imgBrand: "/assets/logo/hp.png" },
+  { imgBrand: "/assets/logo/hp.png" },
   { imgBrand: "/assets/logo/lenovo.png" },
   { imgBrand: "/assets/logo/acer.png" },
   { imgBrand: "/assets/logo/brother.png" },
@@ -14,7 +14,10 @@ const brands = [
 
 export default function Expertise() {
   return (
-    <div id="services" className="flex flex-col items-center justify-center">
+    <div
+      id="services"
+      className="flex flex-col items-center justify-center gap-2 md:gap-6"
+    >
       <div className="mt-8 flex flex-col gap-4 md:flex-row md:gap-8">
         <SectionTitle
           section="Skillset"

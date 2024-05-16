@@ -104,7 +104,7 @@ export const InfiniteMovingCards = ({
             <img
               src={item.imgBrand}
               alt="Brand"
-              className="w-[100px] md:w-[150px]"
+              className="h-[30px] md:h-[60px]"
             />
           </li>
         ))}
