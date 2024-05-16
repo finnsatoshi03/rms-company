@@ -4,8 +4,11 @@ import Header from "../components/Header";
 import BrandQuote from "../components/BrandQuote";
 import Review from "../components/Review";
 import { Phone } from "lucide-react";
+import { useMediaQuery } from "react-responsive";
 
 export default function Landing() {
+  const isBelowMd = useMediaQuery({ query: "(max-width: 767px)" });
+
   return (
     <div className="h-full overflow-hidden">
       <WavyBackground className="mt-8 h-full w-full">
@@ -14,25 +17,26 @@ export default function Landing() {
             subtitle="Welcome to RMS Printer and Laptop Services"
             title="Your One-Stop Tech Repair Shop"
           />
-          <div className="flex flex-col justify-between md:flex-row">
+          <div className="flex flex-col md:flex-row md:justify-between">
             <BrandQuote />
-            <div className="relative flex items-center justify-center">
-              <div className="bg-red absolute top-60 flex size-[80vw] items-center justify-center rounded-full md:top-16 md:size-[60vw]">
+            {isBelowMd && <Review />}
+            <div className="relative flex h-screen items-center justify-center">
+              <div className="absolute -bottom-[10vh] flex h-[100vh] w-[80vw] items-center justify-center rounded-full bg-red md:-bottom-[30vh] md:h-[125vh] md:w-[50vw]">
                 <img
-                  className="absolute -top-16 "
+                  className="absolute bottom-[60vh] w-full sm:w-4/6 md:bottom-[25rem]"
                   src="/ceo-img.png"
                   alt="CEO Image"
                 />
-                <div className="absolute top-56 md:top-64 z-50 bg-white px-3 py-2 rounded-full flex gap-4">
+                {/* <div className="absolute top-56 z-50 flex gap-4 rounded-full bg-white px-3 py-2 md:top-64">
                   <Button variant="default">
                     <Phone size={16} />
                     <a href="#footer">Contact Us</a>
                   </Button>
                   <Button variant="outline">Be One of Us</Button>
-                </div>
+                </div> */}
               </div>
             </div>
-            <Review />
+            {!isBelowMd && <Review />}
           </div>
         </div>
       </WavyBackground>
