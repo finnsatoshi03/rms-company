@@ -95,7 +95,7 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), addVariablesForColors],
+  plugins: [require("tailwindcss-animate"), addVariablesForColors, addSubgrid],
 };
 
 function addVariablesForColors({ addBase, theme }) {
@@ -107,4 +107,18 @@ function addVariablesForColors({ addBase, theme }) {
   addBase({
     ":root": newVars,
   });
+}
+
+function addSubgrid({ addUtilities }) {
+  addUtilities(
+    {
+      ".grid-rows-subgrid": {
+        "grid-template-rows": "subgrid",
+      },
+      ".grid-row-1-4": {
+        "grid-row": "1 / 4",
+      },
+    },
+    ["responsive"],
+  );
 }

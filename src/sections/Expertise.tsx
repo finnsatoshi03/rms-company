@@ -23,6 +23,7 @@ export default function Expertise() {
           section="Skillset"
           title="Our Major Brand Expertise"
           showThe={false}
+          titleColor="black"
           className="w-fit"
         />
         <p className="w-full md:w-1/3">
