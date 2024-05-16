@@ -6,21 +6,25 @@ const services = [
     title: "Printer Repair",
     description:
       "Fix printing problems like faint lines, paper jams, and error messages. Get clear, crisp documents every time.",
+    image: "/printer-repair.jpg",
   },
   {
     title: "Laptop Repair",
     description:
       " Is your laptop slow, crashing, or frozen? We handle both hardware and software issues to get you back to work.",
+    image: "/laptop-repair.jpg",
   },
   {
     title: "Monitor Repair",
     description:
       "Fix flickering screens, strange lines, or a complete blackout. We can often save you money on a replacement.",
+    image: "/monitor-repair.jpg",
   },
   {
     title: "Motherboard Repair",
     description:
       "Our experts tackle complex motherboard problems, but understand the potential risks involved.",
+    image: "/board-repair.jpg",
   },
 ];
 
@@ -39,9 +43,9 @@ export default function Services() {
         and services to get your laptop and printer back up and running in no
         time.
       </p>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
         {services.map((service) => (
-          <Card title={service.title} description={service.description} />
+          <Card cardItems={service} />
         ))}
       </div>
     </div>
