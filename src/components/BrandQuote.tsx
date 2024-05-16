@@ -1,7 +1,9 @@
 export default function BrandQuote() {
   return (
     <div className="flex flex-col">
-      <span className="-mb-12 font-serif text-7xl md:text-9xl">&ldquo;</span>
+      <span className="-mb-8 font-serif text-7xl md:-mb-12 md:text-9xl">
+        &ldquo;
+      </span>
       <p>Recovery Machine Specialist</p>
       <p>
         Where Price does not

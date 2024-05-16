@@ -27,6 +27,7 @@ export default {
         green: "#24f265",
         darkGreen: "#4c9d66",
         brown: "#734b4b",
+        gray: "#3b483f",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
