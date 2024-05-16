@@ -11,12 +11,12 @@ export default function CoreValues() {
   const isSizeMd = useMediaQuery({ query: "(max-width: 767px)" });
 
   return (
-    <div className="mt-16 grid gap-8 md:grid-cols-2 md:flex-row md:gap-4">
+    <div className="mt-16 grid gap-6 md:grid-cols-2 md:flex-row md:gap-4">
       {isSizeMd && (
         <SectionTitle
           section="About"
           title="Core Values"
-          className="mb-4 text-right"
+          className="text-right"
         />
       )}
       <img

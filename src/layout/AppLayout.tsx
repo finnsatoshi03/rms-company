@@ -5,6 +5,7 @@ import Partners from "../sections/Partners";
 import Footer from "../sections/Footer";
 import Map from "../sections/Map";
 import Navbar from "./Navbar";
+import Expertise from "@/sections/Expertise";
 
 export default function AppLayout() {
   return (
@@ -18,12 +19,17 @@ export default function AppLayout() {
       <div className="w-full bg-black ">
         <div className="mx-auto w-4/5 text-white">
           <About />
-          <Services />
-          <Partners />
-          <Map />
-          <Footer />
         </div>
       </div>
+      <div className="mt-16 w-full overflow-hidden rounded-t-[10vw] bg-white">
+        <div className="mx-auto h-full w-4/5">
+          <Expertise />
+          <Services />
+        </div>
+      </div>
+      <Partners />
+      <Map />
+      <Footer />
     </div>
   );
 }
