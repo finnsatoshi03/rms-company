@@ -9,7 +9,11 @@ export default function BrandQuote() {
         compromise Quality
       </p>
       <p className="mb-4 font-serif text-7xl font-bold md:text-9xl">7</p>
-      <p>Major Brand Expertise</p>
+      <p className="leading-4">
+        Major Brand
+        <br />
+        Expertise
+      </p>
     </div>
   );
 }
