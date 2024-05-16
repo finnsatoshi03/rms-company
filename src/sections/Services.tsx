@@ -30,7 +30,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div id="" className="mb-8 mt-24 flex flex-col gap-4">
+    <div id="" className="mb-16 mt-24 flex flex-col gap-4">
       <SectionTitle
         section="Services"
         title="What We Offer"

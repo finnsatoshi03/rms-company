@@ -18,7 +18,7 @@ export default function Expertise() {
       id="services"
       className="flex flex-col items-center justify-center gap-2 md:gap-6"
     >
-      <div className="mt-8 flex flex-col gap-4 md:flex-row md:gap-8">
+      <div className="mt-16 flex flex-col gap-4 md:flex-row md:gap-8">
         <SectionTitle
           section="Skillset"
           title="Our Major Brand Expertise"

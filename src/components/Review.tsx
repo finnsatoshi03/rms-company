@@ -9,7 +9,7 @@ export default function Review() {
       <div className="flex flex-col items-end text-right">
         <div className="flex">
           {Array.from({ length: 5 }).map((_, i) => (
-            <Star key={i} size={24} fill="yellow" color="yellow" />
+            <Star key={i} size={24} fill="#da8906" color="#da8906" />
           ))}
         </div>
         <p className="my-6 text-sm md:text-base">

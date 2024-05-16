@@ -21,7 +21,7 @@ export default function AppLayout() {
           <About />
         </div>
       </div>
-      <div className="mt-16 w-full overflow-hidden rounded-t-[10vw] bg-white">
+      <div className="mt-16 w-full overflow-hidden rounded-[10vw] bg-white">
         <div className="mx-auto h-full w-4/5">
           <Expertise />
           <Services />
