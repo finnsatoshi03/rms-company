@@ -45,7 +45,7 @@ export default function Services() {
       </p>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
         {services.map((service) => (
-          <Card cardItems={service} />
+          <Card cardItems={service} key={service.title} />
         ))}
       </div>
     </div>

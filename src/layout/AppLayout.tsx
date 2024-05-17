@@ -32,11 +32,13 @@ export default function AppLayout() {
           <Partners />
         </div>
       </div>
-      <div className="w-full overflow-hidden rounded-t-[10vw] bg-white">
+      <div className="w-full overflow-hidden rounded-[10vw] bg-white">
         <div className="mx-auto h-full w-4/5">
           <Map />
-          <Footer />
         </div>
+      </div>
+      <div className="mx-auto w-4/5 text-white py-16">
+        <Footer />
       </div>
     </div>
   );

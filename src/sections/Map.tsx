@@ -3,14 +3,18 @@ import { Headset, Mail, MapPin, Phone } from "lucide-react";
 
 export default function Map() {
   return (
-    <div id="map" className="mt-16">
+    <div id="map" className="my-16">
       <SectionTitle
-        section="Locations"
-        title="Visit Us Today!"
+        className="text-center mb-8"
+        section="YOU MADE IT TO THE BOTTOM!"
+        title="Ready to Fix Your Tech Headache?"
         titleColor="black"
         showThe={false}
       />
-      <div className="grid md:grid-cols-2 gap-8 md:gap-12 mt-6">
+      <h2 className="font-extrabold italic text-3xl font-sansSecondary">
+        Visit Us Today!
+      </h2>
+      <div className="grid md:grid-cols-2 gap-8 md:gap-12 mt-2">
         <div className="flex flex-col gap-2 md:gap-4">
           <iframe
             className="w-full h-[50vh] rounded-3xl"

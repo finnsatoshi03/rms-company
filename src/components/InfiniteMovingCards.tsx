@@ -116,7 +116,7 @@ export const InfiniteMovingCards = ({
             //   background:
             //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             // }}
-            // key={idx}
+            key={idx}
           >
             <img
               src={item.imgBrand}
