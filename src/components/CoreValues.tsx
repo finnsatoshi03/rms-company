@@ -20,7 +20,7 @@ export default function CoreValues() {
         />
       )}
       <img
-        className="h-[50vh] w-full rounded-3xl object-cover grayscale"
+        className="h-[60vh] w-full rounded-3xl object-cover grayscale"
         src="/core-values-cover.jpg"
         alt="About Image"
       />

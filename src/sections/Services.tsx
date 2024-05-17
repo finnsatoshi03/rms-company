@@ -21,7 +21,7 @@ const services = [
     image: "/monitor-repair.jpg",
   },
   {
-    title: "Motherboard Repair",
+    title: "Board Repair",
     description:
       "Our experts tackle complex motherboard problems, but understand the potential risks involved.",
     image: "/board-repair.jpg",

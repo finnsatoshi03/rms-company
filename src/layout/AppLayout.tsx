@@ -27,7 +27,11 @@ export default function AppLayout() {
           <Services />
         </div>
       </div>
-      <Partners />
+      <div className="w-full md:mt-16 bg-black ">
+        <div className="mx-auto w-4/5 text-white">
+          <Partners />
+        </div>
+      </div>
       <Map />
       <Footer />
     </div>

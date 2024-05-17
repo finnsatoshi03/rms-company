@@ -28,6 +28,7 @@ export default {
       colors: {
         black: "#151515",
         red: "#f12924",
+        red400: "#F50000",
         darkRed: "#b34947",
         green: "#24f265",
         darkGreen: "#4c9d66",
