@@ -1,5 +1,11 @@
+import { InfiniteMovingCards } from "@/components/InfiniteMovingCards";
 import { LampContainer } from "@/components/Lamp";
 import SectionTitle from "@/components/SectionTitle";
+
+const partners1 = [
+  { imgBrand: "/assets/partners/brunos-barbers.png" },
+  { imgBrand: "/assets/partners/cebuana-lhuillier.png" },
+];
 
 export default function Partners() {
   return (
@@ -17,6 +23,9 @@ export default function Partners() {
         <div className="md:w-3/4 w-full text-center">
           We're proud to partner with a variety of businesses and individuals
           who trust our expertise to keep their technology running smoothly.
+        </div>
+        <div>
+          <InfiniteMovingCards />
         </div>
       </LampContainer>
     </div>
