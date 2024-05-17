@@ -26,6 +26,18 @@ export const InfiniteMovingCards = ({
   useEffect(() => {
     addAnimation();
 
+    const handleBlur = () => {
+      if (scrollerRef.current) {
+        scrollerRef.current.style.animationPlayState = "paused";
+      }
+    };
+    const handleFocus = () => {
+      if (scrollerRef.current) {
+        scrollerRef.current.style.animationPlayState = "running";
+      }
+    };
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
     return () => {
       if (scrollerRef.current) {
         const scrollerContent = Array.from(scrollerRef.current.children);
@@ -33,8 +45,11 @@ export const InfiniteMovingCards = ({
           scrollerRef.current?.removeChild(item);
         });
       }
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
     };
   }, [items]);
+
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {

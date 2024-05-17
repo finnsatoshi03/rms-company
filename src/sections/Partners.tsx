@@ -32,7 +32,7 @@ const partners2 = [
 export default function Partners() {
   return (
     <div id="partners" className="w-full">
-      <LampContainer>
+      <LampContainer className="md:translate-y-[3rem]">
         <div className="w-full flex justify-center bg-gradient-to-br from-white to-red py-4 bg-clip-text text-transparent">
           <SectionTitle
             className="text-center w-full md:w-3/4"
@@ -47,7 +47,7 @@ export default function Partners() {
           who trust our expertise to keep their technology running smoothly.
         </div>
       </LampContainer>
-      <div className="md:-translate-y-[18rem] -translate-y-[22rem]">
+      <div className="md:-translate-y-[12rem] -translate-y-[22rem]">
         <InfiniteMovingCards
           items={partners1}
           speed="normal"
