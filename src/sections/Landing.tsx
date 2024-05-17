@@ -22,7 +22,7 @@ export default function Landing() {
             <div className="relative flex h-screen items-center justify-center">
               <div className="absolute -bottom-[5rem] flex h-[100vh] w-[80vw] items-center justify-center rounded-full bg-red md:-bottom-[30vh] md:h-[125vh] md:w-[50vw]">
                 <img
-                  className="absolute bottom-[55vh] w-full sm:w-4/6 md:bottom-[40rem] md:w-[80%] lg:bottom-[25rem] xl:w-[60%]"
+                  className="absolute bottom-[55vh] w-full sm:w-4/6 md:bottom-[25rem] md:w-[25rem] xl:w-[28rem]"
                   src="/ceo-img.png"
                   alt="CEO Image"
                 />
