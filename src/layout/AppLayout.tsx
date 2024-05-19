@@ -10,7 +10,7 @@ import Expertise from "@/sections/Expertise";
 export default function AppLayout() {
   return (
     <div className="mt-8 w-screen bg-black">
-      <div className="h-[130vh] w-full overflow-hidden rounded-b-[10vw] bg-white md:h-[100vh]">
+      <div className="h-[calc(100vh+20rem)] w-full overflow-hidden rounded-b-[10vw] bg-white md:h-[100vh]">
         <div className="mx-auto h-full w-4/5">
           <Navbar />
           <Landing />
@@ -37,7 +37,7 @@ export default function AppLayout() {
           <Map />
         </div>
       </div>
-      <div className="mx-auto w-4/5 text-white py-16">
+      <div className="mx-auto w-4/5 py-16 text-white">
         <Footer />
       </div>
     </div>

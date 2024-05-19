@@ -32,22 +32,22 @@ const partners2 = [
 export default function Partners() {
   return (
     <div id="partners" className="w-full">
-      <LampContainer className="md:translate-y-[3rem]">
-        <div className="w-full flex justify-center bg-gradient-to-br from-white to-red py-4 bg-clip-text text-transparent">
+      <LampContainer className="h-[calc(100vh+10rem)] md:h-screen md:translate-y-[3rem]">
+        <div className="flex w-full justify-center bg-gradient-to-br from-white to-red bg-clip-text py-4 text-transparent">
           <SectionTitle
-            className="text-center w-full md:w-3/4"
+            className="w-full text-center md:w-3/4"
             section="Trusted By Leaders"
             title="Our Valued Clients"
             titleColor="transparent"
             showThe={false}
           />
         </div>
-        <div className="md:w-3/4 w-full text-center">
+        <div className="w-full text-center md:w-3/4">
           We're proud to partner with a variety of businesses and individuals
           who trust our expertise to keep their technology running smoothly.
         </div>
       </LampContainer>
-      <div className="md:-translate-y-[12rem] -translate-y-[22rem]">
+      <div className="-translate-y-[22rem] md:-translate-y-[12rem]">
         <InfiniteMovingCards
           items={partners1}
           speed="normal"
