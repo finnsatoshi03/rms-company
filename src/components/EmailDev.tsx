@@ -64,7 +64,7 @@ export const DevTeam = () => {
 
   return (
     <div>
-      <h1 className="opacity-60 text-xl md:text-2xl mb-4">
+      <h1 className="mb-4 text-xl opacity-60 md:text-2xl">
         Say Hi to the Dev Team!
       </h1>
       <form ref={form} onSubmit={sendEmail}>
@@ -86,9 +86,9 @@ export const DevTeam = () => {
           </button>
         </div>
       </form>
-      <div className="flex gap-2 mt-4 justify-end">
+      <div className="mt-4 flex justify-end gap-2">
         <SocialLink
-          href="https://portfolio-chi-beryl-23.vercel.app/"
+          href="https://m3rk-portfolio.vercel.app/"
           imgSrc="https://img.icons8.com/fluency-systems-filled/48/triangle.png"
           imgAlt="triangle"
           hoverText="Visit the developer's portfolio to see more projects."
