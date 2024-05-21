@@ -46,7 +46,7 @@ export default function Footer() {
         <DevTeam />
       </div>
       <div className="mt-8 text-center text-xs opacity-40">
-        &copy; {new Date().getFullYear()} RMS Avisha Enterprise. All rights
+        &copy; {new Date().getFullYear()} RMS Avisha Enterprises. All rights
         reserved.
       </div>
     </div>

@@ -13,7 +13,7 @@ export default function Landing() {
       <WavyBackground className="mt-8 h-full w-full">
         <div id="landing">
           <Header
-            subtitle="Welcome to RMS Avisha Enterprise"
+            subtitle="Welcome to RMS Avisha Enterprises"
             title="Your One-Stop Tech Repair Shop"
           />
           <div className="flex flex-col justify-between gap-16 md:flex-row md:gap-0">

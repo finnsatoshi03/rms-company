@@ -44,7 +44,7 @@ export default function CoreValues() {
           <AccordionItem value="item-2">
             <AccordionTrigger>VISION</AccordionTrigger>
             <AccordionContent>
-              RMS Avisha Enterprise aims to create a reputation that gains the
+              RMS Avisha Enterprises aims to create a reputation that gains the
               trust and loyalty of our present and future customers.
             </AccordionContent>
           </AccordionItem>
