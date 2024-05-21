@@ -15,10 +15,10 @@ const services = [
     image: "/laptop-repair.jpg",
   },
   {
-    title: "Monitor Repair",
+    title: "Printer Rental",
     description:
-      "Fix flickering screens, strange lines, or a complete blackout. We can often save you money on a replacement.",
-    image: "/monitor-repair.jpg",
+      "Need a printer for a short-term project? Rent a high-quality printer at an affordable rate.",
+    image: "/printer-rental.jpg",
   },
   {
     title: "Board Repair",

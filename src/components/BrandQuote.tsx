@@ -4,7 +4,7 @@ export default function BrandQuote() {
       <span className="-mb-8 font-serif text-7xl md:-mb-12 md:text-9xl">
         &ldquo;
       </span>
-      <p>Recovery Machine Specialist</p>
+      <p>RMS Avisha Enterprises</p>
       <p>
         Where Price does not
         <br />

@@ -13,21 +13,21 @@ export default function Landing() {
       <WavyBackground className="mt-8 h-full w-full">
         <div id="landing">
           <Header
-            subtitle="Welcome to RMS Printer and Laptop Services"
+            subtitle="Welcome to RMS Avisha Enterprise"
             title="Your One-Stop Tech Repair Shop"
           />
-          <div className="flex flex-col md:flex-row md:justify-between">
+          <div className="flex flex-col justify-between gap-16 md:flex-row md:gap-0">
             <BrandQuote />
             {isBelowMd && <Review />}
+            <img
+              className="w-full md:w-[50vw]"
+              src="/assets/RMS-Logo.png"
+              alt="Company Logo"
+            />
+            {/* </div>
             <div className="relative flex h-screen items-center justify-center">
-              <div className="absolute -bottom-[5rem] flex h-[100vh] w-[80vw] items-center justify-center rounded-full bg-red md:-bottom-[30vh] md:h-[125vh] md:w-[50vw]">
-                <img
-                  className="absolute bottom-[55vh] w-full sm:w-4/6 md:bottom-[25rem] md:w-[25rem] xl:w-[28rem]"
-                  src="/ceo-img.png"
-                  alt="CEO Image"
-                />
-              </div>
-            </div>
+              <div className="absolute -bottom-[5rem] flex h-[100vh] w-[80vw] items-center justify-center rounded-full md:-bottom-[30vh] md:h-[125vh] md:w-[50vw]">
+            </div> */}
             {!isBelowMd && <Review />}
           </div>
         </div>

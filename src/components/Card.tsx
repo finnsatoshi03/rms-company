@@ -27,7 +27,7 @@ export default function Card({ cardItems }: CardProps) {
         </h1>
         <p className="text-sm md:text-base">{cardItems.description}</p>
         <img
-          className="w-full rounded-2xl object-cover transition-all duration-300 ease-in-out group-hover:rounded-t-2xl group-hover:rounded-bl-[12rem] group-hover:rounded-br-2xl"
+          className="h-[30vh] w-full rounded-2xl object-cover transition-all duration-300 ease-in-out group-hover:rounded-t-2xl group-hover:rounded-bl-[12rem] group-hover:rounded-br-2xl"
           src={cardItems.image || "https://placehold.co/600x400"}
           alt="Card Image"
         />
